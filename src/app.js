@@ -5,8 +5,6 @@ import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
-import { addExpense } from './actions/expenses';
-import getVisibleExpenses from './selectors/expenses';
 import { Provider } from 'react-redux';
 
 const store = configureStore();
